@@ -42,3 +42,27 @@ _Nota: Los datos fueron extraídos y procesados en formato CSV/Excel para su pos
 
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square&logo=openai&logoColor=white)
 
+
+### :pushpin: Implementación básica de DAX
+
+¿Es más accesible comprar o alquilar vivienda en España? 
+
+Para responder as la pregunta, construí un modelo en Power BI que integra la evolución de salarios, precios de venta y precios de alquiler. Esto me permite calcular los dos indicadores clave de accesibilidad: 
+ 
+⏳ Ratio de esfuerzo de compra (años de salario necesarios para comprar una vivienda de 80m²). 
+```DAX
+Compra = 
+DIVIDE(
+    AVERAGE('Precio venta'[Precio de venta]) * 80,
+    AVERAGE('Salario'[Salario medio])
+)
+```
+
+⚖️ Ratio de esfuerzo de alquiler (porcentaje del salario anual que se destina al alquiler)
+```DAX
+Alquiler (%) = 
+DIVIDE(
+    AVERAGE('Alquiler'[Precio de alquiler]) * 12 * 80,
+    AVERAGE('Salario'[Salario medio])
+) * 100
+```
