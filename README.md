@@ -26,15 +26,19 @@ _Nota: Los datos fueron extraídos y procesados en formato CSV/Excel para su pos
 ### 🛠️ Herramientas utilizados
 
 **Visualización y Dashboarding**
+
 ![Power_BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
 **Limpieza y normalización de datos de fuentes heterogéneas**
+
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
 ![Power_Query](https://img.shields.io/badge/Power_Query-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
 **Cálculo de medidas dinámicas y variaciones interanuales**
+
 ![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat-square&logo=power-bi&logoColor=black)
 
-**Assistencia de AI**  
+**Assistencia de AI**
+
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square&logo=openai&logoColor=white)
 
