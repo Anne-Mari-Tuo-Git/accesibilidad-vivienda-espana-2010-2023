@@ -66,3 +66,7 @@ DIVIDE(
     AVERAGE('Salario'[Salario medio])
 ) * 100
 ```
+
+## :bar_chart: Dashboard Overview
+
+![Screenshot de la aplicación](accesibilidad-a-la-vivienda-en-espana/capturas/dashboard.JPG)
